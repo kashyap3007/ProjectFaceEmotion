@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Hurricane&family=Kaushan+Script&family=Lavishly+Yours&family=Lobster&display=swap");
+
+.logo {
+  border-radius: 10px;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Dosis", sans-serif;
+  font-size: 10rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Dosis", sans-serif;
+}
+
+#navbardrop {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+}
+
+/* /---------------------------------------------------------------------? */
+
+/* Buttons */
+
+body {
+  /* Height is 100 percent */
+  height: 100vh;
+  background-image: radial-gradient(
+    rgb(21, 20, 21),
+    rgb(45, 36, 97),
+    rgb(26, 2, 2)
+  );
+  padding: 0px;
+  margin: 0px;
+
+}
+
+/* Scroll bars */
+/* width  of scroll bar*/
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track  */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle  bar background*/
+::-webkit-scrollbar-thumb {
+  background: rgb(134, 4, 117);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: goldenrod;
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges. */
+.container {
+  
+  margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+
+#video {
+
+  border: solid 7px whitesmoke;
+  border-radius: 3rem;
+  margin: 0.5rem;
+  object-fit: cover;
+  transform: rotateY(180deg);
+   /* //Kyuki ulta aayega */
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  /* background-color: red; */
+}
+
+.social-icon {
+  margin: 15px 10px;
+}
+
+canvas {
+  position: absolute;
+  margin-top: -600px;
+  margin-right: 100px;
+}
